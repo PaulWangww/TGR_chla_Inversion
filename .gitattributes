@@ -1,0 +1,33 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Python
+*.py text eol=lf
+
+# R
+*.R text eol=lf
+*.Rmd text eol=lf
+
+# Data / config files
+*.csv text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.geojson text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+
+# Binary files
+*.xlsx binary
+*.xls binary
+*.tif binary
+*.tiff binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.pkl binary
+*.rds binary
+*.RData binary

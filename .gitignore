@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binary data files (use Git LFS or external storage for these)
+*.tif
+*.tiff
+*.pkl
+*.rds
+
+# Intermediate outputs — generated figures and CSVs
+result/**/*.csv
+result/**/*.png
+result/**/*.pdf
+result/**/*.txt
+
+# Scratch / temp files
+tmp/
+temp/
+*.tmp
+_fix_*.py
+
+# Sensitive
+.env
+*.secret
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
